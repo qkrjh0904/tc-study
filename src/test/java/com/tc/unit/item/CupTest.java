@@ -1,4 +1,4 @@
-package com.example.tc.unit.item;
+package com.tc.unit.item;
 
 import com.tc.unit.item.Cup;
 import org.junit.jupiter.api.DisplayName;

@@ -1,4 +1,4 @@
-package com.example.tc.unit.item;
+package com.tc.unit.item;
 
 import com.tc.unit.item.Bag;
 import org.assertj.core.api.Assertions;

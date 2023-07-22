@@ -1,4 +1,4 @@
-package com.example.tc.unit.commerce;
+package com.tc.unit.commerce;
 
 import com.tc.unit.commerce.Commerce;
 import com.tc.unit.item.Bag;
