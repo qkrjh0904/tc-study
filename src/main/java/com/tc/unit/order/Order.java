@@ -1,7 +1,7 @@
-package com.example.tc.unit.order;
+package com.tc.unit.order;
 
 
-import com.example.tc.unit.item.Item;
+import com.tc.unit.item.Item;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 

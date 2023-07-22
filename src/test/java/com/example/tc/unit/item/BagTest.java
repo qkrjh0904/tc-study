@@ -1,5 +1,6 @@
 package com.example.tc.unit.item;
 
+import com.tc.unit.item.Bag;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;

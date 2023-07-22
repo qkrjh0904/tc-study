@@ -1,4 +1,4 @@
-package com.example.tc.spring.config;
+package com.tc.spring.config;
 
 import com.zaxxer.hikari.HikariConfig;
 import com.zaxxer.hikari.HikariDataSource;

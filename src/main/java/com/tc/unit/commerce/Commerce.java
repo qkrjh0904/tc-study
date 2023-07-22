@@ -1,16 +1,14 @@
-package com.example.tc.unit.commerce;
+package com.tc.unit.commerce;
 
-import com.example.tc.unit.item.Item;
-import com.example.tc.unit.order.Order;
+import com.tc.unit.item.Item;
+import com.tc.unit.order.Order;
+import com.tc.unit.enums.ErrorMessage;
 import lombok.Getter;
 
 import java.time.LocalDateTime;
 import java.time.LocalTime;
 import java.util.ArrayList;
 import java.util.List;
-
-import static com.example.tc.unit.enums.ErrorMessage.INVALID_ITEM_NUMBER;
-import static com.example.tc.unit.enums.ErrorMessage.INVALID_ORDER_TIME;
 
 @Getter
 public class Commerce {
@@ -22,7 +20,7 @@ public class Commerce {
 
     public void add(Item item, int count) {
         if (count <= 0) {
-            throw new IllegalArgumentException(INVALID_ITEM_NUMBER.getDescription());
+            throw new IllegalArgumentException(ErrorMessage.INVALID_ITEM_NUMBER.getDescription());
         }
 
         for (int i = 0; i < count; ++i) {
@@ -52,6 +50,6 @@ public class Commerce {
             return new Order(nowDateTime, itemList);
         }
 
-        throw new IllegalArgumentException(INVALID_ORDER_TIME.getDescription());
+        throw new IllegalArgumentException(ErrorMessage.INVALID_ORDER_TIME.getDescription());
     }
 }

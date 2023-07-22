@@ -1,7 +1,7 @@
-package com.example.tc.unit.commerce;
+package com.tc.unit.commerce;
 
-import com.example.tc.unit.item.Bag;
-import com.example.tc.unit.item.Cup;
+import com.tc.unit.item.Bag;
+import com.tc.unit.item.Cup;
 
 public class CommerceRunner {
 

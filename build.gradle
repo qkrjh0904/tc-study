@@ -32,13 +32,13 @@ dependencies {
     compileOnly 'org.projectlombok:lombok'
     annotationProcessor 'org.projectlombok:lombok'
 
-    // h2
+    // mysql
     runtimeOnly 'com.mysql:mysql-connector-j'
 
     // p6spy
     implementation 'com.github.gavlyukovskiy:p6spy-spring-boot-starter:1.8.0'
 
-    //test
+    // test
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 

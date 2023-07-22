@@ -1,15 +1,16 @@
 package com.example.tc.unit.commerce;
 
-import com.example.tc.unit.item.Bag;
-import com.example.tc.unit.item.Cup;
-import com.example.tc.unit.order.Order;
+import com.tc.unit.commerce.Commerce;
+import com.tc.unit.item.Bag;
+import com.tc.unit.item.Cup;
+import com.tc.unit.order.Order;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import java.time.LocalDateTime;
 
-import static com.example.tc.unit.enums.ErrorMessage.INVALID_ITEM_NUMBER;
-import static com.example.tc.unit.enums.ErrorMessage.INVALID_ORDER_TIME;
+import static com.tc.unit.enums.ErrorMessage.INVALID_ITEM_NUMBER;
+import static com.tc.unit.enums.ErrorMessage.INVALID_ORDER_TIME;
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.Assertions.assertThatThrownBy;
 

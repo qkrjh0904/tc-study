@@ -1,4 +1,4 @@
-package com.example.tc.unit.enums;
+package com.tc.unit.enums;
 
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;

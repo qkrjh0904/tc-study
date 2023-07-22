@@ -1,4 +1,4 @@
-package com.example.tc.unit.item;
+package com.tc.unit.item;
 
 public interface Item {
 
