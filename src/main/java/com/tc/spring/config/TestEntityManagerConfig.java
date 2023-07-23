@@ -19,8 +19,8 @@ import java.util.Map;
 @Profile("test")
 @Configuration
 @EnableJpaAuditing
-@EntityScan
-@EnableJpaRepositories
+@EntityScan(basePackages = {"com.tc.spring.db"})
+@EnableJpaRepositories(basePackages = {"com.tc.spring.domain"})
 @RequiredArgsConstructor
 public class TestEntityManagerConfig {
 
