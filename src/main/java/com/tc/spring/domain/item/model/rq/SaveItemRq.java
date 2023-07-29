@@ -20,7 +20,7 @@ public class SaveItemRq {
     @NotNull
     private Integer price;
 
-    @NotNull
+    @NotNull(message = "ItemType 은 필수값입니다.")
     private ItemType itemType;
 
     @NotNull

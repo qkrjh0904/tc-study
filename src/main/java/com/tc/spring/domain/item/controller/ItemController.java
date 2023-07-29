@@ -1,5 +1,6 @@
 package com.tc.spring.domain.item.controller;
 
+import com.tc.spring.domain.global.ApiResponse;
 import com.tc.spring.domain.item.model.rq.SaveItemRq;
 import com.tc.spring.domain.item.model.rs.FindAllItemListRs;
 import com.tc.spring.domain.item.model.rs.FindAvailableItemListRs;
@@ -26,8 +27,8 @@ public class ItemController {
     }
 
     @GetMapping(ApiPath.ITEM_V1)
-    public FindAllItemListRs findAllItemList() {
-        return findItemService.findAllItemList();
+    public ApiResponse<FindAllItemListRs> findAllItemList() {
+        return ApiResponse.ok(findItemService.findAllItemList());
     }
 
     @GetMapping(ApiPath.ITEM_V1_AVAILABLE)
