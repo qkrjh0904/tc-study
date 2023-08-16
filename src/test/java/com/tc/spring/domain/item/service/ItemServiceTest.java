@@ -1,6 +1,6 @@
 package com.tc.spring.domain.item.service;
 
-import com.tc.spring.db.entity.Item;
+import com.tc.spring.db.entity.item.Item;
 import com.tc.spring.db.enums.ItemType;
 import com.tc.spring.db.enums.SellingStatus;
 import com.tc.spring.domain.item.model.rq.SaveItemRq;

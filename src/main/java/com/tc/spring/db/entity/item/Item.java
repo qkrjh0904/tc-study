@@ -1,4 +1,4 @@
-package com.tc.spring.db.entity;
+package com.tc.spring.db.entity.item;
 
 import com.tc.spring.db.enums.ItemType;
 import com.tc.spring.db.enums.SellingStatus;

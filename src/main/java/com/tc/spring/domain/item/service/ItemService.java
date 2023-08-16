@@ -1,6 +1,6 @@
 package com.tc.spring.domain.item.service;
 
-import com.tc.spring.db.entity.Item;
+import com.tc.spring.db.entity.item.Item;
 import com.tc.spring.domain.item.model.rq.SaveItemRq;
 import com.tc.spring.domain.item.repository.ItemRepository;
 import lombok.RequiredArgsConstructor;
